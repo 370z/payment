@@ -3,7 +3,7 @@
 
 require("dotenv").config();
 const axios = require("axios");
-const stripe = require("stripe")(sk_test_51Hg9lmAFMKlS8CSVa0w5sg01VbvNgdgsvFXdcwi4cabr9512cfmjP0LOKgVTQarK48nEi708PCcFk4PhIZZTRnpU00Q4XIsns2),
+const stripe = require("stripe")('sk_test_51Hg9lmAFMKlS8CSVa0w5sg01VbvNgdgsvFXdcwi4cabr9512cfmjP0LOKgVTQarK48nEi708PCcFk4PhIZZTRnpU00Q4XIsns2'),
   headers = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Headers": "Content-Type"
